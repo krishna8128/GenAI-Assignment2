@@ -1,0 +1,31 @@
+{
+  "name": "scaler-clone-agent",
+  "version": "1.0.0",
+  "description": "Conversational CLI AI agent (Cursor/Windsurf-style) that clones the Scaler Academy website into HTML/CSS/JS through a START -> THINK -> TOOL -> OBSERVE -> OUTPUT reasoning loop.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "openai",
+    "scaler",
+    "tool-use",
+    "reasoning-loop"
+  ],
+  "author": "Swayam Sah",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "openai": "^4.68.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Don't ignore the demo output the agent generates — graders should be able to see it.
+# (Comment the next line out if you want a freshly-generated clone in your repo.)
+# scaler-clone/
